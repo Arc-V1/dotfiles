@@ -1,0 +1,61 @@
+# Synthwave theme colors
+colors:
+  # Primary colors
+  primary:
+    background: '0x2A2139'   # Background color
+    foreground: '0xF8F8F2'   # Foreground (text) color
+
+  # Cursor colors
+  cursor:
+    text: '0x2A2139'         # Cursor text color
+    cursor: '0xF8F8F2'       # Cursor color
+
+  # Selection colors
+  selection:
+    text: '0xF8F8F2'         # Selection text color
+    background: '0x5A496E'   # Selection background color
+
+  # ANSI Colors
+  ansi:
+    black: '0x2A2139'        # Regular black
+    red: '0xFF6188'          # Regular red
+    green: '0xA9DC76'        # Regular green
+    yellow: '0xFFD866'       # Regular yellow
+    blue: '0x78DCE8'         # Regular blue
+    magenta: '0xFFAB3D'      # Regular magenta
+    cyan: '0xFF6188'         # Regular cyan
+    white: '0xF8F8F2'        # Regular white
+    bright_black: '0x625B76' # Bright black
+    bright_red: '0xFF6188'   # Bright red
+    bright_green: '0xA9DC76' # Bright green
+    bright_yellow: '0xFFD866' # Bright yellow
+    bright_blue: '0x78DCE8'  # Bright blue
+    bright_magenta: '0xFFAB3D' # Bright magenta
+    bright_cyan: '0xFF6188'  # Bright cyan
+    bright_white: '0xF8F8F2' # Bright white
+
+# Opacity settings
+window:
+  opacity: 0.97             # Opacity of the window background
+foreground_opacity: 1.0       # Opacity of the foreground text
+selection_opacity: 0.75       # Opacity of the selection background
+inactive_opacity: 0.9         # Opacity of inactive windows
+
+# Cursor settings
+cursor:
+  style: Block                # Cursor style
+  block:
+    color: '0xF8F8F2'        # Cursor color
+
+# Font settings
+font:
+  normal:
+    family: FiraCode         # Font family
+    style:  Bold           # Font style (Regular, Bold, Italic, etc.)
+  size: 14                   # Font size
+#Shell Command
+shell:
+  program: /usr/bin/fish
+
+#Command
+
