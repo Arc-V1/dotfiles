@@ -8,7 +8,7 @@ display_error() {
 
 # Get the directory of the script
 script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-dotfiles_dir="$script_dir/dotfiles"
+dotfiles_dir="$script_dir"
 
 # Create directories if they don't exist
 mkdir -p ~/.config/picom ~/.config/kitty ~/.config/alacritty || display_error "Failed to create directories"
